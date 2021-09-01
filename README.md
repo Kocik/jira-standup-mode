@@ -8,9 +8,9 @@ You customize your styles by removing parts of my stylesheet (some of them may b
 # Features
 
 - Fullscreen Kanban board
-  - removed top and side navigation
-  - removed sprint header, side bar
-  - removed "add column" button
+  - Removed top and side navigation
+  - Removed sprint header, side bar
+  - Removed "add column" button
 - Fullscreen Task Board
   - Removed margins around the task popup
   - Removed comment box
