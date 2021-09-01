@@ -1,1 +1,67 @@
+/* REMOVE TOP AND SIDE MENUS */
+/* remove top header */
+#jira-frontend > div:first-child > div:first-child > div:first-of-type {
+    display: none;
+}
+/* make the sprint view full height */
+#ak-main-content, #ak-main-content>:first-child {
+    height: 100%;
+}
+/* remove grid template */
+#jira-frontend > div:first-child > div:first-child {
+    display: block;
+}
 
+#ak-side-navigation {
+    display: none;
+}
+
+/* FIX SPRINT VIEW */
+/* remove sprint header  */
+#ak-main-content > div:first-child > div:first-child > div:first-of-type {
+    display: none;
+}
+
+/* remove paddings around the board */
+[data-test-id="platform-board-kit.ui.board.scroll.board-scroll"] > section {
+    padding: 0;
+}
+[data-test-id="platform-board-kit.ui.board.scroll.board-scroll"] > section > :last-child,
+[data-test-id="platform-board-kit.ui.board.scroll.board-scroll"] > section > :first-child {
+    display: none;
+}
+
+/* remove the "create column" button" */
+[data-test-id="platform-board-kit.ui.board.scroll.board-scroll"] > section > :nth-last-child(2) {
+    display: none;
+}
+
+/* OTHER COSMETICS */
+/* remove Quickstart button */
+#jira-frontend > :last-child {
+    display:none;
+}
+
+/* remove minimap */
+[data-test-id="software-board.board-area"] > :first-child > :last-child:not(:first-child) {
+    display:none;
+}
+
+/* remove "add epic" button */
+[data-test-id="issue.views.issue-base.foundation.breadcrumbs.breadcrumb-add-parent"] {
+    display: none;
+}
+
+/* remove add comment */
+[data-test-id="issue.views.issue-details.issue-layout.left-most-column"] > span:last-child {
+    display: none;
+}
+
+/* TASK VIEW */
+/* make task view full screen */
+.atlaskit-portal > div > div > div:nth-child(2) {
+    top: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
