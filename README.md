@@ -1,9 +1,13 @@
 # Jira Standup Mode
 CSS styles to remove clutter and show what is most important for standup.
 
-Use a browser addon that allows you to manage custom styles for websites - like [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/). In the addon create a stylesheet for Jira and copypaste the content of `jira-standup-mode.css` from this repo.
+# Usage
 
-You customize your styles by removing parts of my stylesheet (some of them may be specific to my preferences, eg. we are not using epics in my team, so I removed it from the task view), or add your own rules to it.
+1. Use a browser addon that allows you to manage custom styles for websites - like [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/). 
+2. In the addon create a stylesheet for Jira and copypaste the content of `jira-standup-mode.css` from this repo.
+3. You customize your styles by removing parts of my stylesheet, or add your own rules to it.
+
+_You may want to adapt some of the rules - eg. we are not using epics in my team, so I removed "Add epic" button from the task view_ 
 
 # Features
 
