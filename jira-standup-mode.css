@@ -65,3 +65,15 @@
     width: 100%;
     max-width: 100%;
 }
+
+/* BACKLOG */
+/* make backlog fullscreen */
+#ak-main-content > div:first-child > div:first-child {
+    height: 100%;
+    max-height: 100%;
+}
+
+/* remove comment box */
+div[data-test-id="issue.views.issue-details.issue-layout.footnote"] ~ span {
+    display: none;
+}
