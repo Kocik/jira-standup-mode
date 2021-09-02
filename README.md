@@ -18,6 +18,9 @@ _You may want to adapt some of the rules - eg. we are not using epics in my team
 - Fullscreen Task Board
   - Removed margins around the task popup
   - Removed comment box
+- Backlog view
+  - It's fullscreen as the Kanban Board
+  - Removed comment box from the task panel
 - Removed other clutter
   - Quickstart button removed
   - Kanban board minimap removed
